@@ -16,13 +16,16 @@
 
         <header>
             <h1>ForoDev</h1>
+            <div class="txt">
+                <h1 tabindex="1" aria-label="Bienvenido a el foro, te encuentras en la cabezera">Comienza a postear</h1>
+            </div>
         </header>
         <nav>
             <form id="post-form">
 
-                <textarea name="" id="post" cols="40" rows="3"></textarea>
+                <textarea tabindex="2" placeholder="Redacta algo nuevo para publicar" role="textbox" name="" id="post" cols="40" rows="3"></textarea>
 
-                <input type="submit" value="Publicar" id="publicar">
+                <input tabindex="3" aria-label="Este es un boton para publicar lo que redactaste presiona enter para publicarlo y los demas lo puedan ver" role="button" type="submit" value="Publicar" id="publicar">
 
 
 
@@ -51,19 +54,19 @@
 
         </section>
         <aside>
-            <h3>Top Lenguajes
+            <h3 aria-label="En está sección econtrarars un ranquing de los mejores lenguajes de programación en el mundo">Top Lenguajes
             </h3>
             <br>
-            <button class="pl" onclick="redirectP()">Python</button>
-            <button class="pl" onclick="redirectJ()">Java</button>
-            <button class="pl" onclick="redirectJS()">JavaScript</button>
-            <button class="pl" onclick="redirectC()">C#</button>
-            <button class="pl" onclick="redirectPHP()">PHP</button>
-            <button class="pl" onclick="redirectCplus()">C/C++</button>
-            <button class="pl" onclick="redirectR()">R</button>
-            <button class="pl" onclick="redirectO()">Objective-C</button>
-            <button class="pl" onclick="redirectS()">Swift</button>
-            <button class="pl" onclick="redirectM()">Matlab</button>
+            <button role="button" class="pl" onclick="redirectP()">Python</button>
+            <button role="button" class="pl" onclick="redirectJ()">Java</button>
+            <button role="button" class="pl" onclick="redirectJS()">JavaScript</button>
+            <button role="button" class="pl" onclick="redirectC()">C#</button>
+            <button role="button" class="pl" onclick="redirectPHP()">PHP</button>
+            <button role="button" class="pl" onclick="redirectCplus()">C/C++</button>
+            <button role="button" class="pl" onclick="redirectR()">R</button>
+            <button role="button" class="pl" onclick="redirectO()">Objective-C</button>
+            <button role="button" class="pl" onclick="redirectS()">Swift</button>
+            <button role="button" class="pl" onclick="redirectM()">Matlab</button>
         </aside>
         <footer>EE SISTEMAS WEB</footer>
     </main>

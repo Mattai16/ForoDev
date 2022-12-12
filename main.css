@@ -10,6 +10,11 @@
     background-color: black;
 }
 
+.txt {
+    width: 100vmax;
+    text-align: center;
+}
+
 .pl {
     color: black;
     padding: 5px;
