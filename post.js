@@ -6,7 +6,7 @@ const render = () => {
 /*     const postsTemplate = posts.map(t => '<li>' + t + '</li>' + '<form id="res-form">' + '<input type="text" id="res">' +
     '<input type="submit">' + '</form>');
  */
-    const postsTemplate = posts.map(t => '<li>' + t + '</li>');
+    const postsTemplate = posts.map(t => '<button class="postC">' + t + '</button>');
     console.log(postsTemplate);
 
     postList.innerHTML = postsTemplate.join('');

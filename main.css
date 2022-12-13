@@ -102,11 +102,17 @@ textarea{
 
 
 
-li {
+.postC {
 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     word-break: break-all;
     word-wrap: break-word;
     list-style: none;
+    border: none;
+    position: relative;
     background-color: white;
     width: 50vw;
     height: 25vh;
